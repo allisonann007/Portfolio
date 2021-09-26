@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+h3 {
+  font-size: 18px;
+  color: #121212;
+}
+P {
+  font-size: 12px;
+  color: #121212;
+}
+a {
+  font-size: 12px;
+  color: #6ec6f1;
+}
+figure {
+  margin:0;
+}
