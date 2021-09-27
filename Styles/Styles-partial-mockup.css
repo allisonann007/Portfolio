@@ -30,7 +30,24 @@ figure {
 header {
   background-color: #00aeed;
   padding-top:2rem;
+  padding-bottom: 2rem;
 }
 .blue-text {
+  font-size: 14px;
   color: #00aeed;
+
+}
+.navigation {
+  background-color: #d7d7d7;
+  padding-left: 6rem;
+}
+.link {
+  color: #121212;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+.header-text {
+  font-size: 14px;
+  color: #FFFFFF;
 }
