@@ -1,8 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  position: relative;
-  left: 58rem;
-  top: 10rem;
 }
 h1 {
   font-size: 36px;
@@ -17,13 +14,16 @@ P {
   font-size: 12px;
   color: #121212;
 }
+
 a {
   font-size: 12px;
   color: #6ec6f1;
 }
+
 figure {
   margin:0;
 }
+
 .white-text {
   color: #FFFFFF
 }
@@ -31,23 +31,43 @@ header {
   background-color: #00aeed;
   padding-top:2rem;
   padding-bottom: 2rem;
+  padding-left: 8rem;
 }
+
 .blue-text {
   font-size: 14px;
   color: #00aeed;
-
 }
 .navigation {
   background-color: #d7d7d7;
-  padding-left: 6rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .link {
   color: #121212;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: strong;
 }
 .header-text {
-  font-size: 14px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer {
+  background-color: #464646;
+  color: #FFFFFF;
+  padding-bottom: 2rem;
+}
+.copyright {
+  color: #FFFFFF;
+  border-right: line;
+}
+.footer-links {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer-logo {
   color: #FFFFFF;
 }
