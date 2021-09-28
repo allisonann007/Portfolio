@@ -55,19 +55,35 @@ header {
   font-size: 16px;
   color: #FFFFFF;
 }
-.footer {
-  background-color: #464646;
+
+.footer-text {
   color: #FFFFFF;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .copyright {
   color: #FFFFFF;
   border-right: line;
+  position: relative;
+  left: 550px;
 }
 .footer-links {
   color: #FFFFFF;
   text-decoration: none;
+  position: relative;
+  left: 510px;
 }
 .footer-logo {
   color: #FFFFFF;
+  position: relative;
+  left: 555px;
+}
+.footer {
+  background-color: #464646;
+  color: #FFFFFF;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.footer-text {
+  position: relative;
+  left: 550px;
 }
