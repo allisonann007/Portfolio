@@ -14,7 +14,12 @@
  a {
    text-decoration: none;
  }
- .box {
+
+ a:hover {
+   font-size: 2rem;
+   color:white;
+ }
+.box {
    height: 120px;
    width: 250px;
  }
@@ -28,4 +33,24 @@
    margin-top: 30rem;
    margin-left: 36rem;
    padding-top: 6rem;
+ }
+ p::first-letter {
+   font-size: 200%;
+   color: green;
+   border-width: 1px;
+   border-color: green;
+   border-style: solid;
+   padding-top: 3px;
+   padding-left: 2px;
+   padding-right: 2px;
+ }
+ p:nth-child(3n){
+   color: dodgerblue;
+ }
+ p:hover{
+   font-size: 2rem;
+   color:green;
+ }
+ i:hover {
+   color:dodgerblue;
  }
